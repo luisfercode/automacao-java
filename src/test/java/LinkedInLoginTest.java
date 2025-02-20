@@ -39,8 +39,8 @@ public class LinkedInLoginTest {
         WebElement passwordField = driver.findElement(By.id("password"));
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
 
-        emailField.sendKeys("dev.fernando.js@gmail.com");  // Substitua pelo seu e-mail
-        passwordField.sendKeys("b1l4h3443311@");        // Substitua pela sua senha
+        emailField.sendKeys("seuemail");  // Substitua pelo seu e-mail
+        passwordField.sendKeys("suasenha");        // Substitua pela sua senha
         loginButton.click();
 
         // Aguarda um tempo para visualizar o resultado (apenas para fins de teste)
